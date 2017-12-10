@@ -1,6 +1,8 @@
 # sauron3
 third approach to Sauron - a real time eye on your network - this time in Go Language 
 
+core code has been moved to https://github.com/danielskowronski/sauron3_core
+
 ![demo](https://sc-cdn.scaleengine.net/i/22e315caecf77506e50be0619e57303e.png)
 
 ## features
@@ -9,7 +11,8 @@ third approach to Sauron - a real time eye on your network - this time in Go Lan
 
 
 ## run
- - config.yml file 
+ - start daemon (eg. from systemd)
+ - config.yml file containing hosts and probes definitions
  - browser -> by default http://localhost:8888
 ```
 ./sauron3 --help
